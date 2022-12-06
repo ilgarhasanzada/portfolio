@@ -1,0 +1,110 @@
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+:root{
+    --my-yellow:#ffb400;
+    --my-gray: #2b2a2a;
+    --my-red:#b80000;
+    --my-black:#111;
+  }
+.text-black{
+  color: var(--my-black);
+}
+.bg-black{
+  background-color: var(--my-black);
+}
+.text-red{
+    color: var(--my-red);
+}
+.text-red-hover:hover{
+  color: var(--my-red);
+}
+.text-yellow{
+    color: var(--my-yellow);
+}
+.text-yellow-hover:hover{
+    color: var(--my-yellow);
+}
+.bg-transparent{
+  background-color: transparent;
+}
+.bg-red{
+  background-color: var(--my-red) !important;
+}
+.bg-yellow{
+    background-color: var(--my-yellow) !important;
+}
+.bg-yellow-hover:hover{
+    background-color: var(--my-yellow) !important;
+}
+.bg-outline-yellow{
+  border: 1px solid var(--my-yellow);
+}
+.bg-outline-red{
+  border: 1px solid var(--my-red);
+}
+.border-black{
+  border: 1px solid var(--my-black) !important;
+}
+.z-index-1{
+    z-index: 2;
+    font-size: 56px;
+    font-weight: 800;
+    top: 35px;
+  }
+  .z-index-2{
+    z-index: 1;
+    font-size: 110px;
+    font-weight: 800;
+    letter-spacing: 10px;
+  }
+  .text-green{
+    color: #5be85b;
+  }
+  .z-index-0{
+    z-index: 0;
+    
+  }
+
+  .my-btn {
+    /* background-image: -webkit-linear-gradient(90deg, #c266d3 50%, transparent 50%); */
+    background-image: linear-gradient(90deg, #111 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition:  300ms ease-in-out;
+    transition:  .4s;
+  }
+  .my-btn:hover {
+    background-position: 100%;
+    color: #c266d3;
+    /* background-color: #000 !important; */
+  }
+  .cursor-pointer{
+    cursor: pointer !important;
+  }
+  .h-100vh{
+    height: 100vh !important;
+  }
+  .h-75vh{
+    height: 75vh !important;
+  }
+  .h-50vh{
+    height: 50vh !important;
+  }
+  .h-25vh{
+    height: 25vh !important;
+  }

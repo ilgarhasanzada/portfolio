@@ -1,0 +1,49 @@
+@media screen and (min-width:992px) {
+  .ms-20{
+    margin-left: 80px;
+    transition: 1s;
+  }
+  .me-20{
+    margin-right: 80px;
+    transition: 1s;
+  }
+}
+@media screen and (min-width:768px) { 
+  .blog_image{
+    height: 260px;
+  }
+    .modal-project .modal-content{
+      width: 700px !important;
+    }
+    .blog:hover  img{
+      width: 120% !important;
+      height: 120% !important;
+    }
+    .blog:hover  video{
+      width: 120% !important;
+    }
+    .blog_image img,video{
+      transition: .5s;
+  }
+  .ms-250{
+    margin-left: 250px;
+    transition: 1s !important;
+  }
+  .me-250{
+    margin-right: 250px;
+    transition: 1s !important;
+  }
+  
+ }
+ @media screen and (max-width:768px) { 
+  .modal-close svg{
+    width: 30px !important;
+    height: 30 !important;
+  }
+  .blog-modal{
+    height: 800px;
+  }
+  .pt-80{
+    padding-top: 80px;
+  }
+ }
